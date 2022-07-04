@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-image: url(img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    margin-left: auto;
+}
+
+.header-menu__item {
+    margin-right: 40px;
+}
+
+.header-menu__link {
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.header-login__btn {
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 11px 17px;
+    border: 2px solid #ffffff;
+    color: white;
+    border-radius: 4px;
+}
+
+.header-login__sign {
+    color: white;
+}
+
+.header-inner {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.header-inner__title {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 78px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.header-inner__subtitle {
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #FFFFFF;
+}
+
+.btn-starter {
+    background: #5AB963;
+    border-radius: 4px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+@media(max-width:775px){
+    
+    .header-menu{
+        background-color: red;
+    }
+}

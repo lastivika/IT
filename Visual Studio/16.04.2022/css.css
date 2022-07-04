@@ -1,0 +1,36 @@
+li {
+    font-size: 40px;
+
+    transition: 1s;
+}
+
+/* li:last-child{
+    color: red;
+    margin-right: 0;
+}
+
+li:first-child{
+    color: red;
+} */
+
+/* li:nth-last-of-type(odd){
+    color: red;
+}
+
+li:nth-last-of-type(even){
+    color: green;
+}
+
+li:hover {
+    color: blue;
+    font-size: 20px;
+}  */
+
+/* li:nth-of-type(3n){
+    color: red;
+} */
+
+/* li::after{
+    content:"😃 "
+} */
+
