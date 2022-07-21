@@ -42,15 +42,15 @@
 // names.splice(0, 2, "Apple", "Orange");
 // console.log(names);
 
-let names = ['Ivan', 'Petro', 'Oleg', 'Petro', 'Oleg'];
+// let names = ['Ivan', 'Petro', 'Oleg', 'Petro', 'Oleg'];
 // names.splice(1, 2);
 // console.log(names);
 
 // names.splice(1, 2, "Apple");
 // console.log(names);
 
-console.log(names);
-console.log(names.slice(1, 4));
+// console.log(names);
+// console.log(names.slice(1, 4));
 
                                             //splice - перша цифра-з чого починаємо, друга цифра-скільки видалаємо, якщо дописуєш щось ще-стають на місце видалення
                                             //slice - перша цифра-слово з якого починається, друга-до якого слова, якщо '1, 4' то виведеться Петро(1), Олег(2), Петро(3) (з першого до четвертого)
