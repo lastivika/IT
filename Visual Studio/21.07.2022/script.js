@@ -101,15 +101,16 @@
 // }
 
 
+
 // let num1 = prompt("Перше число");
 // let num2 = prompt("Друге число");
 // let num11 = parseFloat(num1);
 // let num22 = parseFloat(num2);
 
-
-// function random(min, max) {
-//     let random = Math.random() * (max - min) + min
+// function random(num11, num22) {
+//     let random = Math.random() * (num22 - num11) + num11
 //     console.log(Math.trunc(random))
 // }
-// random(num11, num22)
+
+// random(num11, num22);
 
