@@ -25,12 +25,12 @@
 
 const tasks = [
 
-    {
-        _id: '36hu4h6ubhbjhbgj65hk5t6kk5khk4k',
-        completed: true,
-        body: 'Зробити щось',
-        tetle: "Заголовок для нашої задачі"
-    },
+    // {
+    //     _id: '36hu4h6ubhbjhbgj65hk5t6kk5khk4k',
+    //     completed: true,
+    //     body: 'Зробити щось',
+    //     tetle: "Заголовок для нашої задачі"
+    // },
     // {
     //     _id: '34sdafsdfsd',
     //     completed: true,
@@ -65,7 +65,7 @@ const tasks = [
 
 
     renderAllTasks(objOfTasks);
-    
+
     form.addEventListener('submit', onFormSubmitHandler)
 
     function renderAllTasks(taskList) {
@@ -125,7 +125,7 @@ const tasks = [
         e.preventDefault()
         const titleValue = inputTitle.value;
         const inputBodyValue = inputBody.value;
-        if(!titleValue || !inputBodyValue){
+        if (!titleValue || !inputBodyValue) {
             alert('Ви не заповнили завдання або опис')
             return
         }
@@ -136,18 +136,18 @@ const tasks = [
         form.reset()
     }
 
-    function createTask(title, body){
+    function createTask(title, body) {
         const newTask = {
-            title, 
-            body, 
+            title,
+            body,
             completed: false,
             _id: `task-${Math.random()}`
         };
         console.log(newTask);
 
         objOfTasks[newTask._id] = newTask;
-        return{ ...newTask}
+        return { ...newTask }
     }
+
+
 })(tasks);
-
-
