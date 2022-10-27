@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100px;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 200px 5%;
+
+
+}
+
+.get-posts{
+    padding: 20px;
+    border: 0px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: #ffff;
+    font-weight: 700;
+    cursor: pointer;
+}
