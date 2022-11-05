@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 200px;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 20px 5%;
+    margin-left: 5px;
+    align-content: center;
+
+}
+
+.get-posts {
+    padding: 20px;
+    border: 0px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: #ffff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+    position: absolute;
+}
+
+.get-posts:hover {
+    transform: scale(1.1);
+    box-shadow: 7px 9px 16px -1px rgba(0, 0, 0, 0.12);
+}
+
+.posts-nav {
+    justify-content: space-between;
+}
+
+.posts-box {
+    display: flex;
+    position: absolute;
+    padding-top: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgb(48, 48, 48);
+    outline: 2px solid rgb(5, 0, 58);
+    margin: 50px;
+    max-width: 200px;
+
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(1.1) rotate(15px);
+}
+
+.card__title {
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    color: aliceblue;
+}
+
+.card__text {
+    padding: 3px;
+    font-size: small;
+    color: rgb(142, 255, 249);
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+}
