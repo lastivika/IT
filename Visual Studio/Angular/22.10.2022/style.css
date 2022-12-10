@@ -98,8 +98,15 @@
     background: #404040;
     padding: 10px;
     position: absolute;
-    left: 50%;
+    left: 25%;
     z-index: 999;
+    transform: translate3d(-50%, -50%);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.pop-up.popup-move{
+    cursor: move;
+    user-select:none;
 }
 
 .form-add-post{
