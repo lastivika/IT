@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            margin-right: 20px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        body{
+            padding: 200px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        input{
+            border-top: none;
+            border-right: none;
+            border-left: none;
+        }
+        input:focus{
+            outline: none;
+            border-color: blueviolet;
+        }
+        form{
+            width: 200px;
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-content: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="text">Гривня</label>
+        <input type="number" name="text" id="grn">
+        <label for="text">Dollars</label>
+        <input type="number" name="text" id="usd">
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
