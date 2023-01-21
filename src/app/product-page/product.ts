@@ -144,68 +144,47 @@ export const soda:IProduct[] =[
         price: 24,
     }
 ]
-// export const coffee:IProduct[] =[
-//     {
-//         title: 'Maple leaf necklace',
-//         material: 'Gold',
-//         id: 1,
-//         img:'https://i.pinimg.com/564x/09/0f/2d/090f2dfed010992c3dcd5b927797919f.jpg',
-//         price: 73,
-//     },
-//     {
-//         title: 'Wolf necklace',
-//         material: 'Stainless steel',
-//         id: 2,
-//         img:'https://i.pinimg.com/236x/52/36/6a/52366affbe83c8968f7494c9b155f190.jpg',
-//         price: 10,
-//     },
-//     {
-//         title: 'Nature heart necklace',
-//         material: 'Polymer clay',
-//         id: 3,
-//         img:'https://i.pinimg.com/236x/eb/35/ef/eb35ef3c3d1c972dcdc89a6719205d9d.jpg',
-//         price: 4,
-//     },
-//     {
-//         title: 'Grape necklace',
-//         material: 'Сopper',
-//         id: 4,
-//         img:'https://i.pinimg.com/236x/03/18/2a/03182a5cadfe06beba1179a5f677bab6.jpg',
-//         price: 6,
-//     },
-//     {
-//         title: 'Hands holding crystal necklace',
-//         material: 'Gold',
-//         id: 5,
-//         img:'https://i.pinimg.com/564x/47/6f/6c/476f6ce45c625759c6b2182bef8c9886.jpg',
-//         price: 87,
-//     },
-//     {
-//         title: 'Pomegranate necklace',
-//         material: 'Gold',
-//         id: 6,
-//         img:'https://i.pinimg.com/236x/4c/a2/96/4ca296a2669465272b7265b6ba104cc3.jpg',
-//         price: 86,
-//     },
-//     {
-//         title: 'Black crystal & snake necklace',
-//         material: 'Silver',
-//         id: 7,
-//         img:'https://i.pinimg.com/564x/7a/f9/51/7af951fb11fbb2c8f61fd48954338e77.jpg',
-//         price: 21,
-//     },
-//     {
-//         title: 'Octopus necklace',
-//         material: 'Silver',
-//         id: 8,
-//         img:'https://i.pinimg.com/564x/47/4e/82/474e828162f8425c8112d2759423a1c3.jpg',
-//         price: 27,
-//     },
-//     {
-//         title: 'Dragon holding space necklace',
-//         material: 'Silver',
-//         id: 9,
-//         img:'https://i.pinimg.com/236x/94/90/49/949049ff1209be2f69dd29762a7abf37.jpg',
-//         price: 32,
-//     },
-// ] 
+export const coffee:IProduct[] =[
+    {
+        title: 'Caramel Macchiato',
+        description: '260 Cal.',
+        id: 1,
+        img:'https://s7d1.scene7.com/is/image/mcdonalds/DC_201906_2804_MediumCaramelMacchiato_Glass_A1_HL_832x472:product-header-mobile?wid=823&hei=472&dpr=off',
+        price: 73,
+    },
+    {
+        title: 'Cappuccino',
+        description: '120 Cal.',
+        id: 2,
+        img:'https://s7d1.scene7.com/is/image/mcdonalds/DC_201906_2692_MediumCappuccino_Glass_A1_HL_832x472:product-header-mobile?wid=823&hei=472&dpr=off',
+        price: 10,
+    },
+    {
+        title: 'Mocha Latte',
+        description: '290 Cal.',
+        id: 3,
+        img:'https://s7d1.scene7.com/is/image/mcdonalds/DC_201906_2731_MediumMocha_Glass_A1_HL_832x472:product-header-mobile?wid=823&hei=472&dpr=off',
+        price: 4,
+    },
+    {
+        title: 'Americano',
+        description: '0 Cal.',
+        id: 4,
+        img:'https://s7d1.scene7.com/is/image/mcdonalds/DC_201906_1318_MediumAmericano_Glass_A1_HL_832x472:product-header-mobile?wid=823&hei=472&dpr=off',
+        price: 6,
+    },
+    {
+        title: 'Iced Caramel Macchiato',
+        description: '200 Cal.',
+        id: 5,
+        img:'https://s7d1.scene7.com/is/image/mcdonalds/DC_201906_2743_MediumIcedCaramelMacchiato_Glass_A1_832x472:product-header-mobile?wid=823&hei=472&dpr=off',
+        price: 87,
+    },
+    {
+        title: 'Iced Coffee',
+        description: '140 Cal.',
+        id: 6,
+        img:'https://s7d1.scene7.com/is/image/mcdonalds/DC_201906_1212_MediumIcedCoffee_Glass_A1_832x472:product-header-mobile?wid=823&hei=472&dpr=off',
+        price: 86,
+    }
+] 
