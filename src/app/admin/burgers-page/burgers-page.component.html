@@ -1,0 +1,18 @@
+<a href="http://localhost:4200/" class="back"> Back to the main page</a>
+
+<div class="container">
+<div *ngFor="let product of burgers">
+    <div class="card">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img [src]="https://s7d1.scene7.com/is/image/mcdonalds/DC_201907_0005_BigMac_832x472:product-header-desktop?wid=830&hei=458&dpr=off" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">{{product.title}}</h5>
+                <p class="card-text">{{product.material}}</p>
+                <div class="card-footer">{{product.price|currency}}</div>
+                <a href="#" class="btn btn-primary">View</a>
+            </div>
+        </div>
+    </div>
+</div>
