@@ -1,0 +1,56 @@
+<!-- <p>login-page works!</p> -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <img src="https://www.mcdonalds.com/content/dam/sites/ua/nfl/icons/Logo_on_white_desktop_Small.jpg" alt="" class="logo">
+        <a class="navbar-brand" href="#">McDonald`s</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" id="burgers" aria-current="page" href="/admin/burgers">Burgers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="coffee" href="/admin/coffee">Coffee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="soda" href="/admin/soda">Soda</a>
+                </li>
+                <li class="nav-item disabled">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Snacks</a>
+                </li>
+            </ul>
+            <a class="log" href="/admin/login">Log in</a>
+        </div>
+    </div>
+  </nav>
+  
+  <router-outlet></router-outlet>
+
+<form [formGroup]="form" ng-submit="submit()" class="container">
+
+    <h2>Log In</h2>
+
+    <div class="form-control">
+        <p for="email">Email:</p>
+        <input type="email" id="email" formControlName="email">
+        <div *ngIf="form.controls['email'].touched && form.controls['email'].invalid" class="error">
+            <small *ngIf="form.controls['email'].errors?.['required']">Enter your email</small>
+            <small *ngIf="form.controls['email'].errors?.['email']">Wrong email</small>
+        </div>
+    </div>
+
+    <div class="form-control">
+        <p for="password">Password:</p>
+        <input type="password" formControlName="password" id="password" >
+        <div *ngIf="form.controls['password'].touched && form.controls['password'].invalid" class="error">
+            <small *ngIf="form.controls['password'].errors?.['required']">Enter password</small>
+            <small *ngIf="form.controls['password'].errors?.['minlength']">Password does not contain 8 symbols</small>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-dark" [disabled]="form.invalid || submitted" href="#" >Log  in</button>
+
+</form>

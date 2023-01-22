@@ -1,0 +1,74 @@
+.error{
+    color: rgb(182, 11, 11);
+}
+.container{
+    padding: 30px;
+    margin: 0 auto;
+}
+h2{
+    margin-bottom: 25px;
+}
+.form-control{
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+p{
+    margin: 5px;
+    font-size: 17px;
+}
+input{
+    border: rgba(27, 27, 34, 0.215) 1px solid;
+    border-radius: 7px;
+}
+.btn{
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.container-fluid{
+    display: flex;
+    padding: 15px;
+}
+.navbar-brand{
+    font-size: 33px;
+    align-items: center;
+    margin-left: 10px;
+}
+.nav-link{
+    font-size: 22px;
+}
+
+.speech{
+    margin: 120px;
+    margin-top: 150px;
+}
+p{
+    font-size: 25px;
+}
+.log{
+    font-size: 22px;
+    color: rgb(142, 142, 142);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 10px;
+}
+.log:hover{
+    color: rgb(189, 189, 189);
+}
+.collapse{
+    justify-content: space-between;
+}
+
+.img-mc{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 108px;
+    max-height: 108px;
+}
